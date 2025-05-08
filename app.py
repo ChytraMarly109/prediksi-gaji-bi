@@ -9,7 +9,7 @@ lin_reg_loaded = joblib.load('lin_reg_model.joblib')
 st.title("Prediksi Gaji Berdasarkan Lama Bekerja")
  
 # Input tahun pengalaman kerja
-years_exprerience = st.number_input("Masukkan jumlah tahun bekerja:", min_value=0.0, step=0.1)
+years_experience = st.number_input("Masukkan jumlah tahun bekerja:", min_value=0.0, step=0.1)
  
 # Prediksi gaji
 if st.button("Prediksi Gaji"):
